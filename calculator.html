@@ -1,0 +1,46 @@
+<! DOCTYPE html>  
+<html>  
+    <head>  
+    <title>  
+         C1 using HTML Example  
+    </title> 
+</head>  
+<body> 
+ <form name="C1" class = "C1" >
+<table border="2" align="center"> 
+<tr>  
+<td>  
+<input type="text" name="Input" Size="35">  
+<br>  
+</td>  
+</tr>
+<tr>  
+<td>  
+<input type="button" name = "one" style="font-size:30px" value=" 1 " OnClick="C1.Input.value += '1'">  
+<input type="button" name = "two" style = "font-size:30px" value=" 2 " OnCLick="C1.Input.value += '2'">  
+<input type="button" name = "three" style="font-size:30px" value=" 3 " OnClick="C1.Input.value += '3'">  
+<input type="button" name="add" class ="btnTop" style="font-size:30px" value=" + " OnClick="C1.Input.value += ' + '">  
+<br>  
+<input type="button" name = "four" style="font-size:30px" value=" 4 " OnClick="C1.Input.value += '4'">  
+<input type="button" name = "five" style="font-size:30px" value=" 5 " OnCLick="C1.Input.value += '5'">  
+<input type="button" name = "six" style="font-size:30px" value=" 6 " OnClick="C1.Input.value += '6'">  
+<input type="button" name = "minus" style="font-size:30px" value=" - " OnClick="C1.Input.value += ' - '">  
+<br>  
+<input type="button" name = "seven" style="font-size:30px" value=" 7 " OnClick="C1.Input.value += '7'">  
+<input type="button" name = "eight" style="font-size:30px" value=" 8 " OnCLick="C1.Input.value += '8'">  
+<input type="button" name = "nine" style="font-size:30px" value=" 9 " OnClick="C1.Input.value += '9'">  
+<input type="button" name = "mul" style="font-size:30px" value=" * "   
+OnClick="C1.Input.value += ' * '">  
+<br>  
+<input type="button" name = "clear" style="font-size:30px" value=" c " OnClick="C1.Input.value = ''">  
+<input type="button" name="zero" style="font-size:30px" value=" 0 " OnClick="C1.Input.value += '0'">  
+<input type="button" name="DoIt" style="font-size:30px" value=" = " OnClick="C1.Input.value = eval(C1.Input.value)">  
+<input type="button" name="div" style="font-size:30px" value=" / " OnClick="C1.Input.value += ' / '">  
+<br>  
+</td>  
+  
+</tr>  
+</table>  
+</form>  
+</body>  
+</html>
